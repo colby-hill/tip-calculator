@@ -1,0 +1,76 @@
+* {
+    background-color: #8a99e3;
+}
+
+.innerUI {
+    position: relative;
+    background-color: gray;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0;
+    height: 280px;
+    width: 30%;
+    border-radius: 25px;
+}
+
+H3 {
+    position: relative;
+    background-color: gray;
+    align-self: center;
+    color: white;
+    margin-left: 200px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+label {
+    background-color: gray;
+
+}
+
+#paid{
+    position: fixed;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-left: 45px;
+
+}
+
+#paid-label {
+    position: fixed;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 47px;
+}
+
+.checkboxes {
+    position: fixed;
+    background-color: gray;
+    margin-top: 60px;
+    margin-left: 47px;
+}
+
+#checkbox1 {
+    position: fixed;
+    background-color: gray;
+    margin-top: 60px;
+    margin-left: 47px;
+}
+
+#checklab1 {
+    position: fixed;
+    background-color: gray;
+    margin-top: 57px;
+    margin-left: 65px;
+}
+
+.button {
+    position: fixed;
+    font-size: 35px;
+    background-color: gray;
+    border: black;
+    padding: 0;
+    margin-top: 65px;
+    margin-left: 220px;
+    cursor: pointer;
+}

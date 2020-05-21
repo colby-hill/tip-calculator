@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+
+    <div class="mainUI">
+        <div class="innerUI">
+            <H3>Tip Calculator</H3>
+            <label for="paid" id="paid-label">Amount Paid</label><br>
+            <input type="number" id="paid" name="paid"><br>
+            <label for="checkbox" class="checkboxes">Was the service good?</label><br>
+            <input type="checkbox" id="checkbox1"> <label for="checkbox" id="checklab1">yes</label><br>
+            <input class="button" type="Submit" name="button" onclick="calculateTip();" value="Calculate Tip!">
+            <script>
+
+                function calculateTip() {
+
+                    const paid = document.getElementById("paid").value
+                    const good = document.getElementById("checkbox1").checked
+
+                    if (paid <= 0) {
+                        alert("Please input an amount")
+                    } else if (good === true && paid > 0) {
+                        alert(`Your tip is $${paid * 0.25} dollar(s)`);
+                    } else {
+                        alert(`Your tip is $${paid * 0.2} dollar(s)`);
+                    }
+
+                }
+
+            </script>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
